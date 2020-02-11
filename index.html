@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Murphy Stevens</title>
+      <script type="text/javascript" src="scripts/jquery.js"></script>
+      <script type="text/javascript" src="scripts/mobile-nav.js"></script>
+      <link rel="icon" type="image/png" href="images/favicon.png">
+      <link rel="stylesheet" type="text/css" href="styles/main.css">
+    </head>
+
+  <body>
+
+    <div class="mobile-nav">
+      <a href="#projects" class="mobile-nav-item">Projects</a>
+      <a href="#skills" class="mobile-nav-item">Skills</a>
+    </div>
+    <header class="header">
+      <div class="header-content">
+        <div>
+          <a href="/#" class="header-brand logo-trigger">
+            <h1>Murphy Stevens</h1>
+            <h3>Full-stack developer</h3>
+          </a>
+        </div>
+        <nav>
+          <div class="mobile-trigger header-mobile-nav-item">
+            <span class="burger">
+              <img src="images/hamburger.svg" class="burger-open">
+              <img src="images/x-icon.svg" class="burger-close">
+            </span>
+          </div>
+          <div class="main-nav">
+            <div class="nav-item">
+              <a href="#projects">Projects</a>
+            </div>
+            <div class="nav-item">
+              <a href="#skills">Skills</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    
+    <!-- Start Welcome Section -->
+    <div class="welcome-section">
+      <img src="images/murphy-face.png" class="welcome-image-mobile"/>
+      <div class="welcome-message-area">
+        <div class="welcome-title">
+          <h1>Who is <span class="color-me-red">Murphy</span>?</h1>
+        </div>
+        <div class="welcome-message">
+          <ul>
+            <li><h4>A full-time <span class="color-me-red">Software Developer</span></h4></li>
+            <li><h4>A <span class="color-me-red">passionate</span> learner who strives to expand his skillset</h4></li>
+            <li><h4>A <span class="color-me-red">hard-working</span> employee</h4></li>
+            <li>
+              <div class="socialmedia-list">
+                <a href="https://github.com/murphyjstevens" target="_blank">
+                  <img src="images/github-icon-dark.png" class="socialmedia-image">
+                </a>
+                <a href="https://www.linkedin.com/in/murphystevens/" target="_blank">
+                  <img src="images/linkedin-icon.png" class="socialmedia-image">
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="welcome-image-area">
+        <img src="images/murphy.png" class="welcome-image"/>
+        <img src="images/murphy-face.png" class="welcome-image-mobile"/>
+      </div>
+    </div>
+    <!-- End Welcome Section -->
+
+    <!-- Start Projecets Section-->
+    <a name="projects" class="anchor"></a>
+    <div class="projects-section">
+      <h1 class="section-title">Projects</h1>
+
+      <div class="project-list">
+        <a href="http://jotitdown.murphyjstevens.com" target="_blank" class="project">
+          <div class="project-title-area">
+            <h3 class="project-title">Jot It Down</h3>
+          </div>
+          <div class="project-subtitle-area">
+            <h5 class="project-subtitle">Node JS</h5>
+          </div>
+          <div class="project-description-area">
+            <img src="images/jotitdown.png" class="project-image"/>
+            <p class="project-description">
+              Jot It Down is an app that lets you take and save notes so that you can access them later. I created it using Node JS and relying on socket io to get the data back and forth between server and client. Since I'm still new to javascript/jquery and Node JS, I'd say the more difficult part of this project was getting information back when you select the note in the client.
+              <br> <br>
+              While this project is fully functional, there are still some things that could be added, but I wanted to move on to other projects. If I were to put more work into it, I would add features such as email verification, ssl certifcation, a complete UI redesign, and real-time automatic saving.
+            </p>
+          </div>
+        </a>
+        <a href="http://easychat.murphyjstevens.com/" target="_blank" class="project">
+          <div class="project-title-area">
+            <h3 class="project-title">Easy Chat</h3>
+          </div>
+          <div class="project-subtitle-area">
+            <h5 class="project-subtitle">Node JS</h5>
+          </div>
+          <div class="project-description-area">
+            <img src="images/easychat.png" class="project-image"/>
+            <p class="project-description">
+              EasyChat is a simple and clean chatroom web app that I created using Node JS. It started out as a project made through a Udemy course, but I added quite a few new features including unique names, random colors for users, and case-insensitive rooms.
+              <br><br>
+              If I were to add more to it later, I would add the ability to log in as a "verified user" which would give you a little icon by your name, load in existing chatrooms in a dropdown so you could either put in your own or choose from that list, and move away from the simple http post to make it look more clean.
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- End Projects Section -->
+
+    <!-- Start Skills Section -->
+    <a name="skills" class="anchor"></a>
+    <div class="skills-section">
+      <h1 class="section-title">Skills</h1>
+      <div class="skill-list">
+        <div class="skill">
+          <img src="images/csharp-icon.png" class="skill-image"/>
+          <h3 class="skill-title">C#</h3>
+          <p class="skill-paragraph">
+            I was first introduced to C# through a my job at MCIS. I've grown to really appreciate how easy the language is to grasp and how readable it is. I currently have 2 years of professional C# development, most of which has been helping develop an Electronic Health Record.
+          </p>
+        </div>
+        <div class="skill">
+          <img src="images/nodejs-icon.png" class="skill-image"/>
+          <h3 class="skill-title">Node JS</h3>
+          <p class="skill-paragraph">
+            If you would have told me a year ago that Node JS was going to be one of my favorite programming languages, I would have called you crazy. Over the time I have spent with it, however, I have really come to enjoy all that it brings. The NPM library itself is just amazing and there are a ton of resources to guide you along the way. I started learning Node JS through Andrew Mead's Udemy course and I can't wait to start more Node JS projects.
+          </p>
+        </div>
+        <div class="skill">
+          <img src="images/web-icon.png" class="skill-image"/>
+          <h3 class="skill-title">HTML and CSS</h3>
+          <p class="skill-paragraph">
+            Being two of the most fundamental languages for web development, they have definitely been a key part in a big number of projects that I have done. Even in my late Jr. High and early High School years I enjoyed the flexibility in being able to create a website that looked exactly how I wanted it to. HTML and CSS cover a wide range of features and even though I consider myself well-versed in both languages, I still have much to learn.
+          </p>
+        </div>
+        <div class="skill">
+          <img src="images/xaml-icon.png" class="skill-image"/>
+          <h3 class="skill-title">WPF</h3>
+          <p class="skill-paragraph">
+            At MCIS, I'm a go-to resource for WPF and XAML questions that other coworkers have. In my specific team, I lead WPF development during an iteration and when I'm not working on it myself, I help guide teammates on how to tackle certain issues or the best ways to handle the user story.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Skills Section -->
+
+    <footer>
+      <div class="socialmedia-list">
+        <a href="https://github.com/murphyjstevens" target="_blank">
+          <img src="images/github-icon.png" class="socialmedia-image">
+        </a>
+        <a href="https://www.linkedin.com/in/murphystevens/" target="_blank">
+          <img src="images/linkedin-icon.png" class="socialmedia-image">
+        </a>
+      </div>
+    
+      <h5 class="footer-message">Developed and maintained by Murphy Stevens &copy; 2018</h5>
+    </footer>
+  </body>
+
+</html>

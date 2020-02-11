@@ -1,0 +1,29 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: var(--dark-blue);
+  border-top: 1px solid var(--blue-gray);
+}
+
+.socialmedia-list {
+  display: inline-flex;
+  margin: 0 auto;
+}
+
+.socialmedia-list a {
+  margin: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.socialmedia-image {
+  width: 25px;
+  height: 25px;
+}
+
+.footer-message {
+  display: flex;
+  color: var(--off-white);
+  text-align: center;
+  margin: 0 auto;
+  font-weight: normal;
+}
