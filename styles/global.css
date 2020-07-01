@@ -1,6 +1,19 @@
 * {
   font-family: Verdana, Arial, sans-serif;
-  color: var(--dark-blue);
+}
+
+a {
+  transition: all 0.3s ease-in-out;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
 }
 
 .color-me-red {
