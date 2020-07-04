@@ -1,6 +1,36 @@
 * {
   font-family: Verdana, Arial, sans-serif;
+}
+
+a {
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  background: var(--off-white);
+}
+
+h1, h2, h3, h4, h5, h6 {
   color: var(--dark-blue);
+  font-weight: bold;  
+}
+
+.container {
+  max-width: 960px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .color-me-red {
