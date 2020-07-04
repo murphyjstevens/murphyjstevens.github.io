@@ -12,4 +12,11 @@ jQuery(document).ready(function($) {
   $('.level-bar-inner').css('width', '0');
 
   $('.level-label').tooltip();
+  
+  GitHubActivity.feed({
+    username: "murphyjstevens",
+    // repository: "your-repo", // optional
+    selector: "#feed",
+    limit: 5 // optional
+  });
 });

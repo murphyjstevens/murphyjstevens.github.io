@@ -7,16 +7,18 @@
 
       <link rel="icon" type="image/png" href="images/favicon.png">
 
-      <!-- JQuery JS -->
-      <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script> -->
       <!-- FontAwesome JS -->
       <script defer src="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
     
       <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-      <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+      <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
       <!-- Local CSS -->
       <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+      <!-- GitHub Activity Plugin -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+      <link rel="stylesheet" href="styles/github-activity.css">
     </head>
 
   <body class="flex-column">
@@ -46,7 +48,14 @@
         <section class="shadow-sm rounded">
           <h2 class="section-heading">About Me</h2>
           <div class="content">
-              <p>Greetings! My name is Stephanie Stevens. My passion is serving children and ensuring that they won't have anything hold them back from what they want to become in life. </p>
+              <p>Experienced Software Developer with a demonstrated history of working in the information technology and services industry. Skilled in Angular, C# .NET, SQL, HTML/CSS, and WPF. Strong engineering professional with a Bachelor of Science (B.S.) focused in Computer Science with LA Mathematics Minor from University of Wisconsin-Eau Claire. </p>
+          </div>
+        </section>
+
+        <section class="shadow-sm rounded education">
+          <h2 class="section-heading">Github Activity</h2>
+          <div class="content">
+            <div id="feed"></div>
           </div>
         </section>
   
@@ -55,15 +64,29 @@
           <div class="content">
               <div class="item">
                   <h3 class="title">Software Developer - <span class="place"><a href="#">Cogency Global</a></span> <span class="year">(2019 - Present)</span></h3>
-                  <p>I get tackled, push, bit, stabbed, and punched on a daily basis. When I am not defending myself from an onslaught of attacks, I try to mold the minds of the young aggressors.</p>
+                  <p>To be filled</p>
               </div>
               <div class="item">
                   <h3 class="title">Software Developer - <span class="place"><a href="#">Pediatric Home Service</a></span> <span class="year">(2018 - 2019)</span></h3>
-                  <p>I get tackled, push, bit, stabbed, and punched on a daily basis. When I am not defending myself from an onslaught of attacks, I try to mold the minds of the young aggressors.</p>
+                  <ul>
+                    <li>Lead front-end development in WPF for programs on the desktop applications for the in-house needs of the company</li>
+                    <li>Assisted in the optimization of back-end infrastructure in C#.NET for the applications</li>
+                    <li>Designed user interface for in-house applications to allow ease-of-use for end-user</li>
+                    <li>Converted client-side code for desktop from WPF to Angular to allow external access to applications from a web browser</li>
+                    <li>Updated stored procedures in SQL Manager Studio to ensure data integrity and optimize performance</li>
+                    <li>Collaborated in engineering meetings to ensure infrastructure was fully prepared for development of new applications</li>
+                    <li>Attended daily meetings to communicate progress and collaborate on projects</li>
+                  </ul>
               </div>
               <div class="item">
-                  <h3 class="title">Programmer Analyst - <span class="place"><a href="#">Marshfield Clinic</a></span> <span class="year">(2016 - 2018)</span></h3>
-                  <p>I get tackled, push, bit, stabbed, and punched on a daily basis. When I am not defending myself from an onslaught of attacks, I try to mold the minds of the young aggressors.</p>
+                <h3 class="title">Programmer Analyst - <span class="place"><a href="#">Marshfield Clinic</a></span> <span class="year">(2016 - 2018)</span></h3>
+                <ul>
+                  <li>Worked on a team that focused on the Revenue Cycle Management side of the EHR that MCIS has been creating from scratch</li>
+                  <li>Developed features for the product in C# according to the requirements of the user stories</li>
+                  <li>Followed the practices of Agile Development to succeed in developing the requirements for the iterations</li>
+                  <li>Specialized in the front end development using WPF and assisted other developers on UI tasks they were working on</li>
+                  <li>Attended iteration planning meetings to understand development needs for the product every three weeks and contributed insight and asked questions to better envision the requirements</li>
+                </ul>
               </div>
           </div>
         </section>
@@ -123,8 +146,14 @@
         </section>
       </div>
     </div>
-    <script type="text/javascript" src="scripts/jquery.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- JQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="scripts/github-activity.js"></script>
+
     <script type="text/javascript" src="scripts/portfolio.js"></script>
   </body>
 </html>
