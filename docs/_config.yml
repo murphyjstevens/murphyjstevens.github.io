@@ -23,8 +23,8 @@ title: Murphy's Dev Blog
 description: >- # this means to ignore newlines until "baseurl:"
   This is where Murphy will put his thoughts and feelings on
   development topics and possibly other topics.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://murphyjstevens.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://murphyj.dev" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  murphyjstevens
 
